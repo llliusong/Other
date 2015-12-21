@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F57B38F019610BAD005553F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57B38EF19610BAD005553F0 /* Foundation.framework */; };
+		F57B38F219610BAD005553F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57B38F119610BAD005553F0 /* CoreGraphics.framework */; };
+		F57B38F419610BAD005553F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57B38F319610BAD005553F0 /* UIKit.framework */; };
+		F57B38FA19610BAD005553F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F57B38F819610BAD005553F0 /* InfoPlist.strings */; };
+		F57B38FC19610BAD005553F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F57B38FB19610BAD005553F0 /* main.m */; };
+		F57B390019610BAD005553F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F57B38FF19610BAD005553F0 /* AppDelegate.m */; };
+		F57B390219610BAD005553F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57B390119610BAD005553F0 /* Images.xcassets */; };
+		F57B390919610BAE005553F0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57B390819610BAE005553F0 /* XCTest.framework */; };
+		F57B390A19610BAE005553F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57B38EF19610BAD005553F0 /* Foundation.framework */; };
+		F57B390B19610BAE005553F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57B38F319610BAD005553F0 /* UIKit.framework */; };
+		F57B391319610BAE005553F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F57B391119610BAE005553F0 /* InfoPlist.strings */; };
+		F57B391519610BAE005553F0 /* label____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F57B391419610BAE005553F0 /* label____Tests.m */; };
+		F57B392019610BD4005553F0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57B391F19610BD4005553F0 /* RootViewController.m */; };
+		F57B392319610C1C005553F0 /* LPLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F57B392219610C1C005553F0 /* LPLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F57B390C19610BAE005553F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F57B38E419610BAD005553F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F57B38EB19610BAD005553F0;
+			remoteInfo = "label上画横线";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F57B38EC19610BAD005553F0 /* label上画横线.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "label上画横线.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57B38EF19610BAD005553F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F57B38F119610BAD005553F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F57B38F319610BAD005553F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F57B38F719610BAD005553F0 /* label上画横线-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "label上画横线-Info.plist"; sourceTree = "<group>"; };
+		F57B38F919610BAD005553F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F57B38FB19610BAD005553F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F57B38FD19610BAD005553F0 /* label上画横线-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "label上画横线-Prefix.pch"; sourceTree = "<group>"; };
+		F57B38FE19610BAD005553F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F57B38FF19610BAD005553F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F57B390119610BAD005553F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F57B390719610BAD005553F0 /* label上画横线Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "label上画横线Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57B390819610BAE005553F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F57B391019610BAE005553F0 /* label上画横线Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "label上画横线Tests-Info.plist"; sourceTree = "<group>"; };
+		F57B391219610BAE005553F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F57B391419610BAE005553F0 /* label____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "label____Tests.m"; sourceTree = "<group>"; };
+		F57B391E19610BD4005553F0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F57B391F19610BD4005553F0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F57B392119610C1C005553F0 /* LPLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPLabel.h; sourceTree = "<group>"; };
+		F57B392219610C1C005553F0 /* LPLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F57B38E919610BAD005553F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57B38F219610BAD005553F0 /* CoreGraphics.framework in Frameworks */,
+				F57B38F419610BAD005553F0 /* UIKit.framework in Frameworks */,
+				F57B38F019610BAD005553F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57B390419610BAD005553F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57B390919610BAE005553F0 /* XCTest.framework in Frameworks */,
+				F57B390B19610BAE005553F0 /* UIKit.framework in Frameworks */,
+				F57B390A19610BAE005553F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F57B38E319610BAD005553F0 = {
+			isa = PBXGroup;
+			children = (
+				F57B38F519610BAD005553F0 /* label上画横线 */,
+				F57B390E19610BAE005553F0 /* label上画横线Tests */,
+				F57B38EE19610BAD005553F0 /* Frameworks */,
+				F57B38ED19610BAD005553F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F57B38ED19610BAD005553F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F57B38EC19610BAD005553F0 /* label上画横线.app */,
+				F57B390719610BAD005553F0 /* label上画横线Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F57B38EE19610BAD005553F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F57B38EF19610BAD005553F0 /* Foundation.framework */,
+				F57B38F119610BAD005553F0 /* CoreGraphics.framework */,
+				F57B38F319610BAD005553F0 /* UIKit.framework */,
+				F57B390819610BAE005553F0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F57B38F519610BAD005553F0 /* label上画横线 */ = {
+			isa = PBXGroup;
+			children = (
+				F57B38FE19610BAD005553F0 /* AppDelegate.h */,
+				F57B38FF19610BAD005553F0 /* AppDelegate.m */,
+				F57B391E19610BD4005553F0 /* RootViewController.h */,
+				F57B391F19610BD4005553F0 /* RootViewController.m */,
+				F57B392119610C1C005553F0 /* LPLabel.h */,
+				F57B392219610C1C005553F0 /* LPLabel.m */,
+				F57B390119610BAD005553F0 /* Images.xcassets */,
+				F57B38F619610BAD005553F0 /* Supporting Files */,
+			);
+			path = "label上画横线";
+			sourceTree = "<group>";
+		};
+		F57B38F619610BAD005553F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F57B38F719610BAD005553F0 /* label上画横线-Info.plist */,
+				F57B38F819610BAD005553F0 /* InfoPlist.strings */,
+				F57B38FB19610BAD005553F0 /* main.m */,
+				F57B38FD19610BAD005553F0 /* label上画横线-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F57B390E19610BAE005553F0 /* label上画横线Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F57B391419610BAE005553F0 /* label____Tests.m */,
+				F57B390F19610BAE005553F0 /* Supporting Files */,
+			);
+			path = "label上画横线Tests";
+			sourceTree = "<group>";
+		};
+		F57B390F19610BAE005553F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F57B391019610BAE005553F0 /* label上画横线Tests-Info.plist */,
+				F57B391119610BAE005553F0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F57B38EB19610BAD005553F0 /* label上画横线 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F57B391819610BAE005553F0 /* Build configuration list for PBXNativeTarget "label上画横线" */;
+			buildPhases = (
+				F57B38E819610BAD005553F0 /* Sources */,
+				F57B38E919610BAD005553F0 /* Frameworks */,
+				F57B38EA19610BAD005553F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "label上画横线";
+			productName = "label上画横线";
+			productReference = F57B38EC19610BAD005553F0 /* label上画横线.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F57B390619610BAD005553F0 /* label上画横线Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F57B391B19610BAE005553F0 /* Build configuration list for PBXNativeTarget "label上画横线Tests" */;
+			buildPhases = (
+				F57B390319610BAD005553F0 /* Sources */,
+				F57B390419610BAD005553F0 /* Frameworks */,
+				F57B390519610BAD005553F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F57B390D19610BAE005553F0 /* PBXTargetDependency */,
+			);
+			name = "label上画横线Tests";
+			productName = "label上画横线Tests";
+			productReference = F57B390719610BAD005553F0 /* label上画横线Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F57B38E419610BAD005553F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Pan Li";
+				TargetAttributes = {
+					F57B390619610BAD005553F0 = {
+						TestTargetID = F57B38EB19610BAD005553F0;
+					};
+				};
+			};
+			buildConfigurationList = F57B38E719610BAD005553F0 /* Build configuration list for PBXProject "label上画横线" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F57B38E319610BAD005553F0;
+			productRefGroup = F57B38ED19610BAD005553F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F57B38EB19610BAD005553F0 /* label上画横线 */,
+				F57B390619610BAD005553F0 /* label上画横线Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F57B38EA19610BAD005553F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57B38FA19610BAD005553F0 /* InfoPlist.strings in Resources */,
+				F57B390219610BAD005553F0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57B390519610BAD005553F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57B391319610BAE005553F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F57B38E819610BAD005553F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57B392319610C1C005553F0 /* LPLabel.m in Sources */,
+				F57B390019610BAD005553F0 /* AppDelegate.m in Sources */,
+				F57B38FC19610BAD005553F0 /* main.m in Sources */,
+				F57B392019610BD4005553F0 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57B390319610BAD005553F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57B391519610BAE005553F0 /* label____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F57B390D19610BAE005553F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F57B38EB19610BAD005553F0 /* label上画横线 */;
+			targetProxy = F57B390C19610BAE005553F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F57B38F819610BAD005553F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F57B38F919610BAD005553F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F57B391119610BAE005553F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F57B391219610BAE005553F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F57B391619610BAE005553F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F57B391719610BAE005553F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F57B391919610BAE005553F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "label上画横线/label上画横线-Prefix.pch";
+				INFOPLIST_FILE = "label上画横线/label上画横线-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F57B391A19610BAE005553F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "label上画横线/label上画横线-Prefix.pch";
+				INFOPLIST_FILE = "label上画横线/label上画横线-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F57B391C19610BAE005553F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/label上画横线.app/label上画横线";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "label上画横线/label上画横线-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "label上画横线Tests/label上画横线Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F57B391D19610BAE005553F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/label上画横线.app/label上画横线";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "label上画横线/label上画横线-Prefix.pch";
+				INFOPLIST_FILE = "label上画横线Tests/label上画横线Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F57B38E719610BAD005553F0 /* Build configuration list for PBXProject "label上画横线" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57B391619610BAE005553F0 /* Debug */,
+				F57B391719610BAE005553F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F57B391819610BAE005553F0 /* Build configuration list for PBXNativeTarget "label上画横线" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57B391919610BAE005553F0 /* Debug */,
+				F57B391A19610BAE005553F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F57B391B19610BAE005553F0 /* Build configuration list for PBXNativeTarget "label上画横线Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57B391C19610BAE005553F0 /* Debug */,
+				F57B391D19610BAE005553F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F57B38E419610BAD005553F0 /* Project object */;
+}
